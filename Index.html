@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="main" id="main">
+
+
+    </div>
+    <script>
+        let div = document.getElementById('main')
+        for (let i = 0; i < 30; i++) {
+            for (let j = 0; j < 15; j++) {
+                let m1 = document.createElement('div')
+                m1.setAttribute('class', 'm1');
+                m1.innerHTML = "M"
+
+                let m2 = document.createElement('div')
+                m2.setAttribute('class', 'm2');
+                m2.innerHTML = "U"
+
+                let m3 = document.createElement('div')
+                m3.setAttribute('class', 'm3');
+                m3.innerHTML = "K"
+
+                let m4 = document.createElement('div')
+                m4.setAttribute('class', 'm4');
+                m4.innerHTML = "E"
+
+                let m5 = document.createElement('div')
+                m5.setAttribute('class', 'm5');
+                m5.innerHTML = "S"
+
+                let m6 = document.createElement('div')
+                m6.setAttribute('class', 'm6');
+                m6.innerHTML = "H"
+
+                div.appendChild(m1)
+                div.appendChild(m2)
+                div.appendChild(m3)
+                div.appendChild(m4)
+                div.appendChild(m5)
+                div.appendChild(m6)
+            }
+        }
+    </script>
+</body>
+
+</html>
